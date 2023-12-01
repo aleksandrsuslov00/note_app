@@ -47,7 +47,7 @@ class NoteManager:
         note_id = len(self.notes) + 1
         new_note = Note(note_id, title, body, timestamp, timestamp, scheduled_time)
         self.notes.append(new_note)
-        print(f'Заметка успешно создана..')
+        print(f'Заметка успешно создана.')
 
     def list_notes(self):
         print('\n' + '='*100)
